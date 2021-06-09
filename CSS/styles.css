@@ -1,0 +1,103 @@
+/* GLOBAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+}
+
+/* HEADER MAIN INDEX */
+
+.header-main-index header {
+    position: fixed;
+    z-index: 100;
+}
+
+.main-index {
+    float: left;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+.main-index ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.main-index ul li {
+    float: right;
+    padding: 0 3vw;
+}
+
+.main-index ul li a {
+    display: block;
+    padding: 16px;
+    font-size: 1.1vw;
+    color: rgb(84, 0, 194);
+    text-decoration: underline;
+}
+
+/* BOX LOGIN INDEX */
+
+#login-box-index {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: #ffff;
+}
+
+/* BUTTON SIGNUP INDEX */
+
+#btn-signup {
+    border: 0;
+    background-color: rgb(84, 0, 194);
+    border-radius: 30px;
+    height: 4.5vw;
+    width: 15vw;
+    margin-right: 0.5vw;
+}
+
+#btn-signup a {
+    font-size: 2vw;
+    padding: 1vw;
+    text-decoration: none;
+    color: #ffff;
+    width: 10%;
+    font-weight: bold;
+}
+
+#btn-signup:hover {
+    border: 0;
+    background-color: #6f00ff;
+    transition: 0.5s;
+}
+
+/* BUTTON LOGIN INDEX */
+
+#btn-login {
+    border: 0.3vw #6f00ff solid;
+    background-color: #ffff;
+    border-radius: 30px;
+    height: 4.5vw;
+    width: 15vw;
+    margin-left: 0.5vw;
+}
+
+#btn-login a {
+    font-size: 2vw;
+    padding: 1vw;
+    text-decoration: none;
+    color: #6f00ff;
+    width: 10%;
+    font-weight: bold;
+}
+
+#btn-login:hover {
+    background-color: #6f00ff;
+    transition: 0.5s;
+}
+
+#btn-login a:hover {
+    color: #ffff;
+}
