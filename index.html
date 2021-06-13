@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700;800&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="IMAGES/favicon.png">
-    <link rel="stylesheet" href="CSS/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="IMAGES/favicon.png" />
+    <link rel="stylesheet" href="CSS/styles.css" />
     <title>Danca Store</title>
-</head>
-<header class="header-main-index">
+  </head>
+  <header>
     <nav class="main-index">
-        <ul>
-            <li><a href="help.html">Ayuda</a></li>
-        </ul>
+      <ul>
+        <li><a href="help.html" target="_blank">Ayuda</a></li>
+        <a href="index.html">
+          <img class="logo-header" src="https://i.imgur.com/7WA835U.png" />
+        </a>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<body>
+  <body>
+    <!-- FIRST SECTION -->
     <div id="login-box-index">
-        <button id="btn-signup" type="button"><a href="signup.html">Registrarse</a></button>
-        <button id="btn-login" type="button"><a href="login.html">Iniciar sesi&oacuten</a></button>
+      <section>
+        <p id="first-index-text">Compra ahora<br />en <b>Danca Store</b></p>
+        <br />
+        <p id="second-index-text">
+          La tienda online <b>m&aacutes segura y confiable,<br /></b>inicia
+          sesi&oacuten para empezar a comprar.
+        </p>
+        <br />
+        <a href="signup.html"
+          ><input type="button" id="btn-signup" value="Registrarse"
+        /></a>
+        <a href="login.html"
+          ><input type="button" id="btn-login" value="Iniciar sesión"
+        /></a>
+      </section>
+      <img id="login-image-index" src="https://i.imgur.com/7ELCNHs.png" />
     </div>
-</body>
-
+    <!-- SECOND SECTION -->
+    <div id="signup-box-index">
+      <img id="signup-image-index" src="https://i.imgur.com/XD0pVUu.png" />
+      <section>
+        <p id="third-index-text">
+          Crea tu cuenta ahora<br />para <b>empezar a comprar</b>
+        </p>
+        <br />
+        <a href="signup.html"
+          ><input
+            type="button"
+            id="btn-signup-second"
+            value="Regístrate gratis"
+        /></a>
+      </section>
+    </div>
+  </body>
+  <!-- FOOTER -->
+  <footer></footer>
 </html>

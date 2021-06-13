@@ -1,103 +1,167 @@
 /* GLOBAL */
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Assistant', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Assistant", sans-serif;
 }
 
 /* HEADER MAIN INDEX */
 
-.header-main-index header {
-    position: fixed;
-    z-index: 100;
+.logo-header {
+  padding-top: 7px;
+  margin-left: 150px;
 }
 
 .main-index {
-    float: left;
-    background: rgba(255, 255, 255, 0.9);
-    width: 100%;
-    border-bottom: 1px black solid;
+  background: #ffff;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px black solid;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
 }
 
 .main-index ul {
-    list-style: none;
-    overflow: hidden;
+  list-style: none;
+  overflow: hidden;
 }
 
 .main-index ul li {
-    float: right;
-    padding: 0 3vw;
+  float: right;
+  padding: 0;
 }
 
 .main-index ul li a {
-    display: block;
-    padding: 16px;
-    font-size: 1.1vw;
-    color: rgb(84, 0, 194);
-    text-decoration: underline;
+  display: block;
+  padding: 18px 48px;
+  font-size: 18px;
+  color: #26007e;
+  text-decoration: none;
+}
+
+.main-index ul li a:hover {
+  color: #5e00ff;
+  text-decoration: underline;
 }
 
 /* BOX LOGIN INDEX */
 
 #login-box-index {
-    float: left;
-    width: 50%;
-    text-align: center;
-    background-color: #ffff;
+  user-select: none;
+  padding: 7% 0;
+  background-color: #ffff;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 60px;
 }
 
-/* BUTTON SIGNUP INDEX */
+#login-box-index section {
+  float: left;
+  margin-left: 10%;
+}
+
+#login-image-index {
+  max-height: 35vw;
+  float: right;
+  margin-top: -5%;
+  margin-right: 10%;
+}
+
+#first-index-text {
+  font-size: 4vw;
+  color: #5e00ff;
+}
+
+#second-index-text {
+  font-size: 1.7vw;
+}
+
+/* BUTTON SIGNUP */
 
 #btn-signup {
-    border: 0;
-    background-color: rgb(84, 0, 194);
-    border-radius: 30px;
-    height: 4.5vw;
-    width: 15vw;
-    margin-right: 0.5vw;
-}
-
-#btn-signup a {
-    font-size: 2vw;
-    padding: 1vw;
-    text-decoration: none;
-    color: #ffff;
-    width: 10%;
-    font-weight: bold;
+  border: 0;
+  background-color: #26007e;
+  border-radius: 30px;
+  height: 4.5vw;
+  width: 15vw;
+  margin-right: 0.5vw;
+  font-size: 2vw;
+  color: #ffff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #btn-signup:hover {
-    border: 0;
-    background-color: #6f00ff;
-    transition: 0.5s;
+  background-color: #5e00ff;
+  transition: 0.5s;
 }
 
-/* BUTTON LOGIN INDEX */
+/* BUTTON LOGIN */
 
 #btn-login {
-    border: 0.3vw #6f00ff solid;
-    background-color: #ffff;
-    border-radius: 30px;
-    height: 4.5vw;
-    width: 15vw;
-    margin-left: 0.5vw;
-}
-
-#btn-login a {
-    font-size: 2vw;
-    padding: 1vw;
-    text-decoration: none;
-    color: #6f00ff;
-    width: 10%;
-    font-weight: bold;
+  border: 0.3vw #5e00ff solid;
+  background-color: #ffff;
+  border-radius: 30px;
+  height: 4.5vw;
+  width: 15vw;
+  margin-left: 0.5vw;
+  font-size: 2vw;
+  color: #5e00ff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #btn-login:hover {
-    background-color: #6f00ff;
-    transition: 0.5s;
+  background-color: #5e00ff;
+  transition: 0.5s;
+  color: #ffff;
 }
 
-#btn-login a:hover {
-    color: #ffff;
+/* BOX SIGNUP INDEX */
+
+#signup-box-index {
+  text-align: center;
+  padding: 5% 0;
+  user-select: none;
+  overflow: hidden;
+  background: linear-gradient(to bottom left, #26007e, #070016);
+}
+
+#signup-image-index {
+  max-height: 25vw;
+  float: left;
+  margin-left: 10%;
+}
+
+#signup-box-index section {
+  float: right;
+  margin-right: 13%;
+}
+
+#third-index-text {
+  font-size: 3vw;
+  color: #ffff;
+}
+
+/* BUTTON SIGNUP */
+
+#btn-signup-second {
+  border: 0;
+  background-color: #ffff;
+  border-radius: 20px;
+  height: 4vw;
+  font-size: 2vw;
+  color: #5e00ff;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 1vw;
+}
+
+#btn-signup-second:hover {
+  background-color: #5e00ff;
+  transition: 0.5s;
+  color: #ffff;
 }
