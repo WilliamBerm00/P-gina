@@ -51,7 +51,7 @@
 
 #login-box-index {
   user-select: none;
-  padding: 7% 0;
+  padding: 2% 0;
   background-color: #ffff;
   text-align: center;
   overflow: hidden;
@@ -64,10 +64,9 @@
 }
 
 #login-image-index {
-  max-height: 35vw;
+  max-height: 25vw;
   float: right;
-  margin-top: -5%;
-  margin-right: 10%;
+  margin-right: 15%;
 }
 
 #first-index-text {
@@ -84,7 +83,7 @@
 #btn-signup {
   border: 0;
   background-color: #26007e;
-  border-radius: 30px;
+  border-radius: 2vw;
   height: 4.5vw;
   width: 15vw;
   margin-right: 0.5vw;
@@ -104,7 +103,7 @@
 #btn-login {
   border: 0.3vw #5e00ff solid;
   background-color: #ffff;
-  border-radius: 30px;
+  border-radius: 2vw;
   height: 4.5vw;
   width: 15vw;
   margin-left: 0.5vw;
@@ -124,25 +123,26 @@
 
 #signup-box-index {
   text-align: center;
-  padding: 5% 0;
+  padding: 2% 0;
   user-select: none;
   overflow: hidden;
   background: linear-gradient(to bottom left, #26007e, #070016);
 }
 
 #signup-image-index {
-  max-height: 25vw;
+  max-height: 22vw;
   float: left;
-  margin-left: 10%;
+  margin-left: 25%;
 }
 
 #signup-box-index section {
   float: right;
-  margin-right: 13%;
+  margin-right: 25%;
+  padding-top: 6%;
 }
 
 #third-index-text {
-  font-size: 3vw;
+  font-size: 2vw;
   color: #ffff;
 }
 
@@ -151,9 +151,9 @@
 #btn-signup-second {
   border: 0;
   background-color: #ffff;
-  border-radius: 20px;
-  height: 4vw;
-  font-size: 2vw;
+  border-radius: 1vw;
+  height: 3vw;
+  font-size: 1.5vw;
   color: #5e00ff;
   font-weight: bold;
   cursor: pointer;
@@ -163,5 +163,20 @@
 #btn-signup-second:hover {
   background-color: #5e00ff;
   transition: 0.5s;
+  color: #ffff;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer a {
+  font-size: 40px;
+  padding: 0 7px;
+  text-decoration: none;
   color: #ffff;
 }
