@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: "Assistant", sans-serif;
 }
 
@@ -16,6 +17,8 @@
 .main-index {
   background: #ffff;
   width: 100%;
+  position: absolute;
+  z-index: 10;
   text-align: center;
   border-bottom: 1px black solid;
   position: fixed;
